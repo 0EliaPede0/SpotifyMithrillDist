@@ -1,0 +1,11 @@
+body {
+    font-size: 16px;
+    color: #a7a7a7;
+}
+
+.sideBarBg {
+    font-weight: 700;
+    font-size: 16px;
+    color: #a7a7a7;
+    background: #000;
+}
