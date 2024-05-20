@@ -19,3 +19,23 @@ a {
     background-color: hsl(0, 0%, 66.67%, 20%);
     border-radius: 7px;
 }
+
+.slideUpClass {
+    animation-name: slideUp;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards
+}
+
+@keyframes slideUp {
+
+    0% {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
